@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Margherita Pizza",
+    "category": "Italian",
+    "price": 299,
+    "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/margherita-pizza-4.jpg"
+  },
+  {
+    "name": "Butter Chicken",
+    "category": "Indian",
+    "price": 249,
+    "image": "https://img.taste.com.au/qPAElV3h/taste/2013/07/easy-butter-chicken-image1-197844-1.jpg"
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "category": "Italian",
+    "price": 199,
+    "image": "https://oldcutkitchen.com/wp-content/uploads/2020/04/IMG_4807-1024x682.jpg"
+  },
+  {
+    "name": "Thai Noodles",
+    "category": "Thai",
+    "price": 499,
+    "image": "https://takestwoeggs.com/wp-content/uploads/2023/11/Soy-Sauce-Pan-Fried-Noodles-Takestwoeggs-sq.jpg"
+  },
+  {
+    "name": "Tangy Manchurian",
+    "category": "Chinese",
+    "price": 279,
+    "image": "https://www.awesomecuisine.com/wp-content/uploads/2023/03/manchurian.jpg"
+  },
+  {
+    "name": "Tacos al Pastor",
+    "category": "Mexican",
+    "price": 159,
+    "image": "https://www.yummytummyaarthi.com/wp-content/uploads/2020/01/1-28.jpg"
+  }
+]
