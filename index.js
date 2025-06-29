@@ -4,10 +4,10 @@ const Menu = require('./models/menu.model');
 const OrderData = require('./models/order.model');
 require('dotenv').config();
 const cors = require('cors');
-const fs = require('fs');
+// const fs = require('fs');
 
-const jsonData = fs.readFileSync('./menu.json', 'utf-8');
-const menuData = JSON.parse(jsonData);
+// const jsonData = fs.readFileSync('./menu.json', 'utf-8');
+// const menuData = JSON.parse(jsonData);
 // console.log(menuData.length);
 
 const app = express();
