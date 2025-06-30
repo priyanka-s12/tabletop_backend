@@ -107,3 +107,24 @@ app.get('/api/order', async (req, res) => {
     res.status(500).json({ error: 'Server error fetching orders' });
   }
 });
+
+app.put('/api/order/:id', async (req, res) => {
+  const orderId = req.params.id;
+  const dataToUpdate = req.body;
+  try {
+    const updatedOrder = await OrderData.findByIdAndUpdate(
+      orderId,
+      { ...dataToUpdate, updatedAt: new Date() },
+      {
+        new: true,
+      }
+    );
+
+    if (!updatedOrder) {
+      res.status(404).json({ error: `Order with ID ${orderId} not found.` });
+    }
+    res.status(200).json(updatedOrder);
+  } catch (error) {
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
